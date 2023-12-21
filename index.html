@@ -9,6 +9,7 @@
 
 </head>
 <body>
+   
     <section class="sec1">
         <div class="div1 flex">
             <div><span><i class="fa-solid fa-location-dot"></i> Rezilla, 18 Grattan St, Brooklyn</span></div>
@@ -20,8 +21,8 @@
         <div class="div3 flex">
             <div>
                 <ul class="flex">
-                    <li class="li1">Home</li>
-                    <li class="hio">About</li>
+                    <li onclick="myFunction()" class="li1">Home</li>
+                    <li onmouseover='getAlert()' id="oi"  class="hio">About</li>
                     <li class="hio">Listings</li>
                     <li class="hio">Services</li>
                     <li class="hio">Blogs</li>
@@ -40,6 +41,7 @@
                 <span class="span2">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. <br>
                 Integer a dolor eu sapien sodales vulputate ac in purus.</span>
                 <div class="a12a"></div>
+                <div class="div35"></div>
                 <img class="img1" src="Screenshot_2.png" alt="">
                 <div class="flex hr12">
                     <hr class="hr5"><hr class="hr9"> <hr class="hr9"> <hr class="hr9">
@@ -61,20 +63,55 @@
                 <button class="button1"><i class="fa-solid fa-magnifying-glass"> </i>Scarch</button>
             </div>
         </div>
-    </section>
-    <section>
-        <div>
-            <div>
-                <div><img class="img2" src="WhatsApp_Image_2023-12-16_at_01.34.34_a33cb51a-removebg-preview.png" alt=""></div>
-                <div>72k+ Happy 
-                    Customers</div>
-            </div>
-            <div>
-                <div></div>
-                <div>200+ New 
-                    Listings Everyday</div>
+        <div class="div20 flex">
+            <div class="div15 flex">
+                <div id="first" class="flex">
+                    <!-- <div><img class="imge1" src="1.png" alt=""></div>
+                    <div><img class="imge1" src="2.png" alt=""></div>
+                    <div><img class="imge1" src="3.jpg" alt=""></div>
+                    <div><img class="imge1" src="4.jpg" alt=""></div>
+                    <div><img class="imge1" src="5.jpg" alt=""></div>
+                    <div><img class="imge1" src="6.jpg" alt=""></div> -->
+                </div>
+
+<script>
+    
+   function myFunction() {
+    alert("I am Anis")};
+
+    let pic=["1.png","2.png","3.jpg","4.jpg","5.jpg","6.jpg",]
+    pic.forEach(function(E){document.getElementById("first").innerHTML +='<img class="imge1" src="'+E+'" alt="">'});
+    
+   function getAlert(){alert('Mar Salar')};
+
+  
+</script>
+
+
+
+                 <div class="div16"> 
+                    72k+ Happy 
+                    Customers
+                </div>
+              </div>
+            
+
+            <div class="div25 flex">
+                <div>
+                    <img class="img9" src="10.jpg" alt="poiopi">
+                </div>
+                <div class="div111">
+                    200+ New <br>
+                    Listings Everyday
+                </div>
             </div>
         </div>
+    </section>
+    <section>
+        
+    </section>
+    <section>
+       
     </section>
     
 </body>
